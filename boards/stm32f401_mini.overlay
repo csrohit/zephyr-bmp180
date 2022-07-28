@@ -1,0 +1,13 @@
+/*
+ * Example configuration of a BME280 device on an I2C1 bus of black pill.
+ *
+ * Device address 0x76 is assumed. Your device may have a different
+ * address; check your device documentation if unsure.
+ */
+&i2c1 {
+	status = "okay";
+	bme280@76 {
+		compatible = "bosch,bme280";
+		reg = <0x76>;
+	};
+};

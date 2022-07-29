@@ -1,0 +1,27 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        // "rohit/**": true,
+        "build/**": true
+    },
+    "files.associations": {
+        "zephyr.h": "c",
+        "sensor.h": "c",
+        "device.h": "c",
+        "device_mmio.h": "c",
+        "mem_manage.h": "c",
+        "device_extern.h": "c",
+        "kernel.h": "c",
+        "kernel_includes.h": "c",
+        "mempool_heap.h": "c",
+        "syscall.h": "c",
+        "sections.h": "c",
+        "kernel_version.h": "c",
+        "kobject.h": "c"
+    }
+}

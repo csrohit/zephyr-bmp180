@@ -3,7 +3,9 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "/home/rohit/code/zephyr/zephyr-bmp180/pre-generated",
+                "/home/rohit/zephyrproject/zephyr/include",
+                "/home/rohit/code/zephyr/zephyr-bmp180/rohit/zephyr/include/generated"
             ],
             "defines": [],
             "compilerPath": "/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc",
